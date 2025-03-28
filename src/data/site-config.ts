@@ -38,9 +38,9 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Roberto Cipriani',
+    subtitle: 'Este es mi Blog personal',
+    description: 'Cree este blog con la ayuda de mis compañeros del grupo E (PA1) del curso construccion de software  ',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -59,8 +59,8 @@ const siteConfig: SiteConfig = {
             href: '/blog'
         },
         {
-            text: 'Tags',
-            href: '/tags'
+            text: 'Github',
+            href: 'https:github.com.10505711'
         }
     ],
     footerNavLinks: [
@@ -75,16 +75,13 @@ const siteConfig: SiteConfig = {
         {
             text: 'Terms',
             href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
+        
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Linkedin',
+            href: 'https://linkedin.com/'
         },
         {
             text: 'Instagram',
@@ -96,8 +93,8 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Hola, Bienvenido a Mi Blog GitHub en mi PA1!',
+        text: "Soy Roberto Cipriani estudiante de la carrera de Ingeniería de Sistemas e Informática de la Universidad Continental. Estoy Implementando la creación de páginas Web con la ayuda de GitHub. Este es un ejercicio inicial para mi PA1 del curso “Construcción de Software”. ",
         image: {
             src: '/hero.jpeg',
             alt: 'A person sitting at a desk in front of a computer'
